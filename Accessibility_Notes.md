@@ -31,7 +31,7 @@
 - Level AA 3.2.4 - Consistent Identification
     - Components that have the same functionality within a set of Web pages are identified consistently.
 -  Skip Link 
-    - <a class="skip-link" href="#main">Skip to main< /a>
+    - `<a class="skip-link" href="#main">Skip to main</a>`
     - Needs to be the first thing on the page after the header tag.
     - On main tag, add ID of "main " and tabindex of "-1".
 - Skip Link CSS
