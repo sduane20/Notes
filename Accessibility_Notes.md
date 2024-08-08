@@ -88,17 +88,78 @@ Level AA 1.4.11 - Non Text Contrast
     - All non-text content that is presented to the user has a alternative that serves the equivalent purpose.
 
 ## Images
-- 
-
+- Level AA 1.4.5 - Images of Text
+    - If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text.
+- All imgs must use the alt attribute.
+- Images that are for decoration only should have an empty all attribute, `alt=""`.
+    - Screen readers ignore images with empty alt attributes.
+- Tips for writing ALT text.
+    - Don't describe the image literally
+        - Ex, "brown couch, with brown pill on left with alphabet imprint and pencil on top, with laptop next to it."
+    - Avoid words like "picture of" or "image of."
+        - Assistive technologies will note image.
+    - Do describe the meaning or purpose of the image.
+        - What was the point? What were you thinking?.
+    - Include any text that is included in the image.
 ## Background Images via CSS
-
+- No notes were needed.
 ## SVG
-
+- Add `role="img"` for semantics.
+- Use the `<title>`
+    - `<desc>` for expended content, if necessary.
+- Use aria-labelledby referencing the `<title>`
+    - aria-describedby to reference the `<desc>`.
 ## Audio
+- Level A 1.2.1 - Audop-only and Video-only (Prerecorded)
+    - For prerecorded audio-only and prerecorded video-only media, and alternative is provided that presents equivalent information.
+- Creating Transcripts
+    - Paid service (mostly used for larger projects)
+    - Speech Recognition
+        - Google Docs Voice Typing (Free with Chrome users.)
+        - Windows Speech Recognition (Built into the OS.)
+        - Apple Dictation (Built into the OS.)
+        - Dragon Naturally Speaking (Software requires payment.)
+- Tips for Creating Transcipts
+    - Include names of speakers.
+    - Describe everything.
+- Presenting Transcripts
+    - Inline (under audio player.)
+    - Link (This would be a separate file and needs to be appear under the audio player.)
 
 ## Video
+- Level A 1.2.1 - Captions (Prerecorded)
+    - Captions are provided for all prerecorded audio content in synchronized media.
+- Level AA 1.2.4 - Captions (Live)
+    - Captions are provided for all live audio content in synchronized media.
+- Types of Captions
+    - Open
+        - Always visible, embedded/burned into videos.
+    - Closed.
+        - Overlay, toggled on/ off by user.
+- Captioning Prerecorded Video
+    - Youtube
+        - Auto-subtitle (Service provided by YouTube. Not perfect but is a start.)
+        - Upload a transcript and sync.
+        - Manual entry.
+    - Video Captioning Services
+    - Manual
+- Captioning Live Video
+    - Communication Access Realtime Communication (CART) 
+        - Live, professional stenographers/ subtitlers.
+- Level AA 1.2.5 Audio Description (Prerecorded)
+    - Audtop description is provided for all prerecorded video content in synchronized media.
+- Creating non-visual cues
+    - "Door slams.", "Thunder and lightning outside window.", "Pam covers mouth while laughing as Dwight discovers his stapler in molded in jello."
+- Have subjects introduce themselves and describe surroundings.
 
 ## Additional Media Guidelines
+- Level A 1.4.2 - Audio Control
+    - If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
+- Level A 2.2.2 - Pause, Stop, Hide
+    - For moving, blinking, scrolling, or auto-updating information provide a mechanism to pause, stop, or hide.
+- Level A 2.3.1 - Three Flashes or Below Threshold
+    - Web pages do not contain anything that flashes more than three times in any one second period.
+- Any embedded media using `<iframe>` should have a label, via the "title" attribute (Level A 2.4.1, Level A 4.1.2)
 
 # Responsive Web Design and Accessibility
 
