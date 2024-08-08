@@ -203,4 +203,13 @@
         - 2x font size spacing after paragraphcs.
         - Letter spacing at least .12x font size.
         - Word space at least .16x font size.
-    - 
+    - html, body {
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: .12rem;
+        word-spacing: .16rem;
+    }
+
+    p + p {
+        margin-top: 2rem;
+    }
