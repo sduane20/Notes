@@ -213,3 +213,8 @@
     p + p {
         margin-top: 2rem;
     }
+### Level 1.4.10 Reflow 
+    - Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for: 
+        - Vertical scrolling content at a width equivalent to 320 CSS pixels.
+        - Horizontal scrolling content at a height equivalent to 256 CSS pixels.
+- Maintain color contrast with text over images.
