@@ -74,14 +74,21 @@ Level AA 1.4.11 - Non Text Contrast
     - Benefit to voice users
 - Level AA 2.4.7 - Focus Visible
     - Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
-- 
-### Error Identification
-### Color
-### Keyboard Navigation/ Focus Indication
+- Level A 1.4.1 - Use of Color
+    - Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. 
+- Level A 3.3.1 - Error Identification
+    - If an input error is automatically detected, the itme that is in error is identified and the error is described to the user in text. 
+- Level AA 3.3.4 - Error Prevention
+    - Web pages that cause legal commitments to financial transtions for the user to occur, or that modify or delete user-controllable data in data storage systems, must be reversible, checked, and confirmed.
+- Level A 2.2.1 - Timing Adjustable
+    - For each time limit that is set by the content, the user is able to either turn off, adjust, or extend the time limit.
 
 # Media
+- Level A 1.1.1 - Non-text Content
+    - All non-text content that is presented to the user has a alternative that serves the equivalent purpose.
 
 ## Images
+- 
 
 ## Background Images via CSS
 
