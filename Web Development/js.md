@@ -44,10 +44,67 @@
 ## Using Math and Comparison
 
     - Mathematical Operators
+        - Addition: (+)
+        - Subtraction: (-)
+        - Multiplication: (*)
+        - Division: (/)
+        - Exponentiation: (**)
+        - Modulus: (%)
+        - Increment: (++)
+        - Decrement: (--)
     - Plus sign with strings and numbers
+        - Plus sign is overloaded
+        - When using with strings = concatentation
+        - when using with number = addition
+        - What happens if one is a number and one is a string?
+            - If one is a string = concatenation
+        - 'result = price + (+stringValue);
+            - The plus sign immediately prior toa  string variable converts that string to a numeric data type if possible
     - Assignment Operators
+        - Equal: (=) - assigns one value to another.
+            - Ex: price = 10;
+        - Addition: (+=)
+            - Ex: price += 10;
+        - Subtraction: (-=)
+            - Ex: price -= 10;
+        - Multiplication: (*=)
+            - Ex: price *= 2;
+        - Division: (/=)
+            - Ex: price /= 2;
+        - Exponentiation: (**=)
+            - Ex: price **= 2;
+        - Modulus: (%=)
+            - Ex: price %= 3;
     - Comparison and Ternary Operators
+        - Comparisons
+            - Less Than: (<)
+                - Ex: price < 10;
+            - Less than or equal to: (<=)
+                - Ex: price <= 10;
+            - Greater Than: (>=)
+                - Ex: price > 10;
+            - Greater than or equal to: (>=)
+                - Ex: price >= 10;
+            - Equal in value: (==)
+                - Ex: price == "10"; //true
+            - Equal in value and type: (===)
+                - Ex: price === 10; //false
+            - Not equal in value: (!=)
+                - Ex: price != "10"; //false
+            - Not equal in value and type: (!==)
+                - Ex: price !== "10"; //true
     - The effect of 'use strict'
+        - Ignored by older browsers
+        - Force all variables to be declared
+        - Mistyped variable names are created globally scoped if not using `use strict;`
+        - Can't use reserved words as variables
+            - Ex: `let eval = 10;`
+            - Ex:`let arguments = "some args";`
+        - Can't delete a variable
+            - Ex: `delete result;`
+        - Can't delete a function
+            - Ex: `delete functionName;`
+        - If not using `use strict` then all of the above will work
 
 ## Working With Logical Operators and Short-circuit Evaluation
 
